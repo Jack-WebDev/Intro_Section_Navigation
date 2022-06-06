@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="index.js" defer></script>
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+</head>
+<body>
+    <header class="header">
+        <img src="images/logo.svg" alt="logo" class="logo">
+        <nav class="navBar">
+            <ul class="navMenu">
+                <li class="list__items">
+                    <p class="title">Features</p> 
+                    <img src="images/icon-arrow-down.svg" alt="icon-arrow-down" class="down-icon"> 
+                    <img src="images/icon-arrow-up.svg" alt="icon-arrow-up" class="up-icon">
+                
+                    <div class="item__info">
+                        <p><img src="images/icon-todo.svg" alt="icon-todo">Todo List</p>
+                        <p><img src="images/icon-calendar.svg" alt="icon-calendar">Calendar</p>
+                        <p><img src="images/icon-reminders.svg" alt="icon-reminders">Reminder</p>
+                        <p><img src="images/icon-planning.svg" alt="icon-planning">Planning</p>
+                    </div>
+                </li>
+
+                <li class="list__items">
+                    <p class="title">Company</p>
+                    <img src="images/icon-arrow-down.svg" alt="icon-arrow-down" class="down-icon"> 
+                    <img src="images/icon-arrow-up.svg" alt="icon-arrow-up" class="up-icon">
+                
+                    <div class="item__info links">
+                        <p>History</p>
+                        <p>Our Team</p>
+                        <p>Blog</p>
+                    </div>
+                </li>
+                <li class="list__item">Careers</li>
+                <li class="list__item">About</li>
+            </ul>
+
+            <button class="btn__login">Login</button>
+        </nav>
+
+        <div class="hamburger">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+
+        <button class="btn__register">Register</button>
+    </header>
+
+    <main>
+        <img src="images/image-hero-mobile.png" alt="image-hero-mobile" class="mobile__hero">
+        <img src="images/image-hero-desktop.png" alt="image-hero-desktop" class="desktop__hero">
+
+        <div class="content">
+            <h1>Make remote work</h1>
+
+            <p>
+                Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.
+            </p>
+    
+            <button class="btn__more">Learn More</button>
+    
+            <div class="sponsors">
+                <img src="images/client-databiz.svg" alt="">
+                <img src="images/client-audiophile.svg" alt="" class="audiophile">
+                <img src="images/client-meet.svg" alt="">
+                <img src="images/client-maker.svg" alt="">
+            </div>
+        </div>
+    </main>
+
+    <dialog id="modal" class="modal">
+        <img src="images/icon-close-menu.svg" alt="icon-close" class="close-icon">
+        <ul class="navMenu">
+            <li class="list__items">
+                <p class="title">Features</p> 
+                <img src="images/icon-arrow-down.svg" alt="icon-arrow-down" class="down-icon"> 
+                <img src="images/icon-arrow-up.svg" alt="icon-arrow-up" class="up-icon">
+            
+                <div class="item__info">
+                    <p><img src="images/icon-todo.svg" alt="icon-todo">Todo List</p>
+                    <p><img src="images/icon-calendar.svg" alt="icon-calendar">Calendar</p>
+                    <p><img src="images/icon-reminders.svg" alt="icon-reminders">Reminder</p>
+                    <p><img src="images/icon-planning.svg" alt="icon-planning">Planning</p>
+                </div>
+            
+            </li>
+
+            <li class="list__items">
+                <p class="title">Company</p> 
+                <img src="images/icon-arrow-down.svg" alt="icon-arrow-down" class="down-icon"> 
+                <img src="images/icon-arrow-up.svg" alt="icon-arrow-up" class="up-icon">
+            
+                <div class="item__info links">
+                    <p>History</p>
+                    <p>Our Team</p>
+                    <p>Blog</p>
+                </div>
+            
+            </li>
+            <li class="list__item">Careers</li>
+            <li class="list__item">About</li>
+
+            <button class="btn__login">Login</button>
+        </ul>
+        <button class="btn__register">Register</button>
+    </dialog>
+</body>
+</html>
